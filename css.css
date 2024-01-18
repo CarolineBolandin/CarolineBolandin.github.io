@@ -1,0 +1,110 @@
+body {
+    background-color: #1D0038;
+    color: #DAFFEF;
+    width: 95vw;
+    font-size: .8rem;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    margin: 4vw;
+}
+
+h1 {
+    justify-self: center;
+    color: #C0FDFB;
+}
+
+strong {
+    color: #9AA8EE;
+}
+
+
+
+img {
+    align-self: center;
+}
+
+p {
+    align-self: center;
+}
+
+a {
+    grid-area: auto;
+    color: #6C47DB;
+    padding: .2rem;
+    border-radius: 5%;
+    height: 3vh;
+    margin-left: 5px;
+    border: solid 1px #ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #9AA8EE;
+    color: #DAFFEF
+}
+
+
+img {
+    width: 40vw;
+    margin-left: .3vw;
+}
+
+div {
+    display: flex;
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        font-size: .7rem;
+    }
+
+    img {
+        width: 40vw;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: .8rem;
+    }
+
+    img {
+        width: 20vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, fit-content);
+        grid-template-rows: repeat(4, fit-content);
+        gap: 0;
+        justify-content: center;
+        align-content: center;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 18vw;
+    }
+
+    a {
+        padding: 1.8vh;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+}
