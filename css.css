@@ -5,10 +5,19 @@ body {
     font-size: .8rem;
 }
 
+footer {
+    display: flex;
+    width: 95vw;
+    align-content: end;
+    justify-content: end;
+    margin: 2vw;
+}
+
 main {
     display: flex;
     flex-flow: column;
     margin: 4vw;
+    gap: 2
 }
 
 h1 {
@@ -26,7 +35,7 @@ img {
     align-self: center;
 }
 
-p {
+span {
     align-self: center;
 }
 
@@ -48,7 +57,7 @@ a:hover {
 
 
 img {
-    width: 40vw;
+    width: 30vw;
     margin-left: .3vw;
 }
 
@@ -103,8 +112,8 @@ div {
         padding: 1.8vh;
     }
 
-    p {
-        font-size: 1.4rem;
+    span {
+        font-size: 1.2rem;
     }
 
 }
